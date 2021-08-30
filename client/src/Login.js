@@ -1,5 +1,4 @@
 import React from "react";
-
 import { Container } from "react-bootstrap";
 
 const AUTH_URL =
@@ -12,7 +11,7 @@ export default function Login() {
       style={{ minHeight: "100vh" }}
     >
       <a className="btn btn-success btn-lg" href={AUTH_URL}>
-        Login with Spotify
+        Login With Spotify
       </a>
     </Container>
   );
